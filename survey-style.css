@@ -140,4 +140,5 @@ input[type=submit] {
     background-color: rgba(3, 3, 146, 0.281);
     color: white;
     border-style: hidden;
+    cursor: pointer;
 }
