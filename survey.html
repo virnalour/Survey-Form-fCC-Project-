@@ -9,8 +9,8 @@
 </head>
 <body>
     
-    <h1>freeCodeCamp Survey Form</h1>
-    <p>Thank you for taking time to help us improve the platform.</p>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking time to help us improve the platform.</p>
     <div>
         <form id="survey-form">
         
@@ -36,13 +36,13 @@
       
         <label id="recommend-label" for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
         
-        <input type="radio" id="definitely" name="name-definitely">
+        <input type="radio" id="definitely" name="recommend" value="definitely">
         <label for="definitely">Definitely</label><br>
         
-        <input type="radio" id="maybe" name="name-maybe">
+        <input type="radio" id="maybe" name="recommend" value="maybe">
         <label for="maybe">Maybe</label><br>
        
-        <input type="radio" id="not-sure" name="name-not-sure">
+        <input type="radio" id="not-sure" name="recommend" value="not-sure">
         <label for="not-sure">Not sure</label><br>
 
         <label id="favorite-label" for="favorite">What is your favorite feature of freeCodeCamp?</label><br>
@@ -56,43 +56,43 @@
         
         <label id="improve-label" for="improve">What would you like to see improved? <span>(Check all that apply)</span> </label><br>
         
-        <input type="checkbox" id="front-end" name="name-front-end">
+        <input type="checkbox" id="front-end" name="name-front-end" value="front-end">
         <label for="front-end">Front-end Projects</label><br>
 
-        <input type="checkbox" id="back-end" name="name-back-end">
+        <input type="checkbox" id="back-end" name="name-back-end" value="back-end">
         <label for="back-end">Back-end Projects</label><br>
 
-        <input type="checkbox" id="data" name="name-data">
+        <input type="checkbox" id="data" name="name-data" value="data-visualizations">
         <label for="data">Data Visualizations</label><br>
 
-        <input type="checkbox" id="challenges" name="name-challenges">
+        <input type="checkbox" id="challenges" name="name-challenges" value="challenges">
         <label for="challenges">Challenges</label><br>
 
-        <input type="checkbox" id="open-source" name="name-open-source">
+        <input type="checkbox" id="open-source" name="name-open-source" value="open-source">
         <label for="open-source">Open Source Community</label><br>
 
-        <input type="checkbox" id="gitter" name="name-gitter">
+        <input type="checkbox" id="gitter" name="name-gitter" value="gitter">
         <label for="gitter">Gitter help rooms</label><br>
 
-        <input type="checkbox" id="videos" name="name-videos">
+        <input type="checkbox" id="videos" name="name-videos" value="videos">
         <label for="videos">Videos</label><br>
 
-        <input type="checkbox" id="meetups" name="name-meetups">
+        <input type="checkbox" id="meetups" name="name-meetups" value="meetups">
         <label for="meetups">City Meetups</label><br>
 
-        <input type="checkbox" id="wiki" name="name-wiki">
+        <input type="checkbox" id="wiki" name="name-wiki" value="wiki">
         <label for="wiki">Wiki</label><br>
 
-        <input type="checkbox" id="forum" name="name-forum">
+        <input type="checkbox" id="forum" name="name-forum" value="forum">
         <label for="forum">Forum</label><br>
 
-        <input type="checkbox" id="courses" name="name-courses">
+        <input type="checkbox" id="courses" name="name-courses" value="additional-courses">
         <label for="courses">Additional Courses</label><br>
         
         <label id="comment-label" for="comments">Any comments or suggestions?</label><br>
         <textarea placeholder="Enter your comment here"></textarea><br>
 
-        <input id="submit-button" type="submit">
+        <input id="submit" type="submit">
 
         </form>
     </div>
